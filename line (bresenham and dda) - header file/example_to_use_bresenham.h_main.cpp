@@ -1,3 +1,10 @@
+/*
+
+*   Created By Vian Arwanda    *
+* Timestamp 2012-05-15 10:36 AM *
+
+*/
+
 #include <stdio.h>
 #include <iostream>
 #include <bresenham.h>

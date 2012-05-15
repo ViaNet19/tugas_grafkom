@@ -1,3 +1,10 @@
+/*
+
+*   Created By Vian Arwanda    *
+* Timestamp 2012-05-15 10:37 AM *
+
+*/
+
 #include <stdio.h>
 #include <iostream>
 #include <dda.h>
