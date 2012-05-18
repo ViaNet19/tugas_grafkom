@@ -1,6 +1,6 @@
 /*
 
-*   Created By Vian Arwanda    *
+*   Created By Vian Arwanda     *
 * Timestamp 2012-05-15 10:36 AM *
 
 */
@@ -15,19 +15,19 @@ int main() {
 	bresenham varBresenham;
 	varBresenham.hitungBresenham(8,8,20,17);
 
-	cout << 'Pk Bresenham : ' << endl;
+	cout << "Pk Bresenham : " << endl;
 	for (int i = 0; i <= varBresenham.step; i++) {
-		cout << varBresenham.pk[i] << ',';
+		cout << varBresenham.pk[i] << ",";
 	}
 
-	cout << 'X Bresenham : ' << endl;
+	cout << "X Bresenham : " << endl;
 	for (int i = 0; i <= varBresenham.step; i++) {
-		cout << varBresenham.arrayXBulat[i] << ',';
+		cout << varBresenham.arrayXBulat[i] << ",";
 	}
 
-	cout << 'Y Bresenham : ' << endl;
+	cout << "Y Bresenham : " << endl;
 	for (int i = 0; i <= varBresenham.step; i++) {
-		cout << varBresenham.arrayYBulat[i] << ',';
+		cout << varBresenham.arrayYBulat[i] << ",";
 	}
 
 	system("PAUSE");

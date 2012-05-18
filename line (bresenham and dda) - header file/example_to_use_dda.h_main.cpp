@@ -1,6 +1,6 @@
 /*
 
-*   Created By Vian Arwanda    *
+*   Created By Vian Arwanda     *
 * Timestamp 2012-05-15 10:37 AM *
 
 */
@@ -15,14 +15,14 @@ int main() {
 	dda varDDA;
 	varDDA.hitungDDA(8,8,20,17);
 
-	cout << 'X DDA : ' << endl;
+	cout << "X DDA : " << endl;
 	for (int i = 0; i <= varDDA.step; i++) {
-		cout << varDDA.arrayXBulat[i] << ',';
+		cout << varDDA.arrayXBulat[i] << ",";
 	}
 
-	cout << 'Y DDA : ' << endl;
+	cout << "Y DDA : " << endl;
 	for (int i = 0; i <= varDDA.step; i++) {
-		cout << varDDA.arrayYBulat[i] << ',';
+		cout << varDDA.arrayYBulat[i] << ",";
 	}
 
 	system("PAUSE");
